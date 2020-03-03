@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #CCCCCC;
+}
+
+div.superior{
+    position: absolute;
+    width: 80%;
+    top: 8%;
+    left: 10%;
+    height: 10%;
+    border: 2px #7D6536 solid;
+    background-color: #FFD480;
+    text-align: center;
+}
+
+.superior p{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+div.superior-izquierda{
+    position: absolute;
+    top:25%;
+    left: 5%;
+    width: 35%;
+}
