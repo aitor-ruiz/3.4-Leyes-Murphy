@@ -9,7 +9,7 @@ body{
 div.superior{
     position: absolute;
     width: 80%;
-    top: 8%;
+    top: 10%;
     left: 10%;
     height: 10%;
     border: 2px #7D6536 solid;
@@ -17,14 +17,73 @@ div.superior{
     text-align: center;
 }
 
-.superior p{
+p{
     font-size: 1.5em;
     padding: 10px;
 }
+ h1{
+     margin: 0;
+     font-size: 3rem;
+     text-align: center;
+ }
 
 div.superior-izquierda{
     position: absolute;
     top:25%;
     left: 5%;
     width: 35%  ;
+    height: 25%;
+    border: hsl(60, 64%, 55%) 4px solid;
+    background-color: hsl(60, 100%, 75%);
+    text-align: left;
 }
+
+div.centro{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: hsl(120, 40%, 35%) 4px solid;
+    background-color: hsl(120, 100%, 75%);
+    text-align: center;
+  }
+
+  
+  div.superior-derecha {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(180, 25%, 70%) 4px solid;
+    background-color: hsl(180, 100%, 90%);
+    text-align: right;
+  }
+  
+div.inferior-izquierda {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(300, 15%, 70%) 4px solid;
+    background-color: hsl(300, 100%, 95%);
+    text-align: left;
+  }
+  
+  div.inferior-derecha {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(0, 15%, 45%) 4px solid;
+    background-color: hsl(0, 100%, 85%);
+    text-align: right;
+  }
+  
+  p:hover {
+    z-index: 3;
+  }
